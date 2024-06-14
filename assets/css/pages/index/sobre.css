@@ -1,0 +1,21 @@
+.sobre {
+  padding: 3rem 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 2px solid var(--cor-p1);
+}
+
+.sobre-image {
+  flex: 1 1 160px;
+}
+
+.sobre-info {
+  flex: 2 1 300px;
+}
+
+.sobre-info p {
+  color: var(--cor-7);
+  margin-top: 1.25rem;
+}

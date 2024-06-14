@@ -2,3 +2,8 @@
   max-width: 1024px;
   margin: 0 auto;
 }
+
+.title {
+  padding: 3rem 1.25rem;
+  border-bottom: 2px solid var(--cor-p1);
+}

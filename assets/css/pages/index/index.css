@@ -1,2 +1,5 @@
 /* global */
 @import "../../global/global.css";
+
+/* index */
+@import "sobre.css"
