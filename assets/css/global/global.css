@@ -1,0 +1,8 @@
+@import "footer.css";
+@import "header.css";
+
+/* utilities */
+@import "./utilities/components.css";
+@import "./utilities/fonts.css";
+@import "./utilities/normalize.css";
+@import "./utilities/variables.css";
