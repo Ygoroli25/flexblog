@@ -1,0 +1,38 @@
+/* newsletter */
+#newsletter {
+  background: var(--cor-1);
+}
+
+.newsletter-assinar {
+  padding: 2rem 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.newsletter-assinar div {
+  color: var(--cor-6);
+  max-width: 200px;
+}
+
+.newsletter-assinar form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsletter-assinar form input { 
+  border: 4px solid var(--cor-p1);
+  padding: 1rem 0.5rem;
+  font-size: 1.25rem;
+  flex: 1;
+}
+
+/* copy */
+#copy {
+  background: var(--cor-p1);
+  text-align: center;
+  padding: 1.25rem ;
+  color: var(--cor-p3);
+}
