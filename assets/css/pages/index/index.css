@@ -2,4 +2,5 @@
 @import "../../global/global.css";
 
 /* index */
-@import "sobre.css"
+@import "sobre.css";
+@import "produtos.css";

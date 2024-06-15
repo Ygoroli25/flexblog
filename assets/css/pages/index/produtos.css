@@ -1,0 +1,34 @@
+.produtos {
+  padding: 4rem 1.25rem;
+}
+
+.produtos-list {
+  margin-top: 3rem;
+  display: flex;
+  gap:2rem 1.25rem ;
+  align-items: end;
+  flex-wrap: wrap;
+}
+
+.produto {
+  background-color: var(--cor-1);
+  color: var(--cor-5);
+  flex: 1 1 200px;
+  border-top: 8px solid;
+}
+
+.produto .produto-title {
+  padding: 3rem 1rem;
+}
+
+.purple {
+  border-color: #ae81ff;
+}
+
+.pink {
+  border-color: #f9265e;
+}
+
+.blue {
+  border-color: #66d9eb;
+}
