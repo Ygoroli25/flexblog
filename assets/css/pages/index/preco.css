@@ -1,0 +1,50 @@
+#preco {
+  background: var(--cor-1);
+}
+
+.precos {
+  padding: 3rem 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.preco {
+  flex: 1 1 260px;
+  border: 6px solid var(--cor-0);
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.preco h2 {
+  color: var(--cor-5);
+  margin-bottom: 1rem;
+}
+
+.preco p {
+  padding: 1.25rem 0;
+  border-bottom: 6px solid var(--cor-0);
+  border-top: 6px solid var(--cor-0);
+}
+
+.preco-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  color: var(--cor-6);
+}
+
+.preco-list li:last-child {
+  margin-bottom: 1.25rem;
+}
+
+.preco-list li::after {
+  content: "";
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: var(--cor-p1);
+}
